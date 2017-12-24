@@ -1,0 +1,1 @@
+Hi there! This is the repo for my Jekyll powered blog. I am using the Lanyon theme by Mark Otto <https://github.com/mdo>.
