@@ -25,11 +25,38 @@
       {% endif %}
     {% endfor %}
 
+    <div class="sidebar-item">
+      <p>
+        Categories
+      </p>
+    </div>
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.layout == "category" %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+      {% endif %}
+    {% endfor %}
+
+    <div class="sidebar-item">
+      <p>
+        Recent Posts
+      </p>
+    </div>
+
+    {% assign pages_list = site.posts | sort:"date" | reverse %}
+    {% for node in pages_list limit:4 %}
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+    {% endfor %}
+
   </nav>
 
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
+    <a href="https://nick-xie.github.io/">
+      Go back to main site
+    </a>
   </div>
 </div>
