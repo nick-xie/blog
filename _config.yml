@@ -11,6 +11,7 @@ description:         'My blog'
 url:                 ''
 baseurl:             '/blog'
 paginate:            5
+future: true
 
 # About/contact
 author:
