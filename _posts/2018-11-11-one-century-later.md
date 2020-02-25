@@ -40,6 +40,3 @@ And that's why this particular Remembrance Day is a special one to me (and I'm s
 It scares me not because I'm afraid I'll forget about it because knowledge can always be rediscovered.
 
 It scares me because it's a reminder that something like WW1 which I have grown up always viewing as a relatively modern event will eventually fade into the pages of our evergrowing human history as "the past".
-
-<br><br>
--- Nick X.

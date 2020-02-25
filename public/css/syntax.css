@@ -1,3 +1,14 @@
+span.bfl {
+    font-size: 275%;
+    font-weight: 500;
+    float: left;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    margin-right: 5px;
+}
+.bio {
+    font-style: italic;
+}
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #999; } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
