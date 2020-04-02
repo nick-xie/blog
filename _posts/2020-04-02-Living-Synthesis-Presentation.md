@@ -3,6 +3,7 @@ layout: post
 title: Living Synthesis Presentation
 date: 2020-04-02
 categories: presentation
+published: false
 ---
 
 * Lots of engineered sound
