@@ -3,6 +3,7 @@ layout: post
 title: Living Synthesis
 date: 2020-04-02
 categories: story
+thumbnail: /assets/synthesis/failed-universal-scalefactor.png
 ---
 
 {% include bigletter.html letter="W" %}e live in a world full of engineered sound. Specifically in music, with technologies such as MIDI and workstations like Ableton and Melodyne, it has become the norm to listen to fully digitally synthesized sounds. Even when mimicking acoustic instruments, these synthesized sounds often feature very little sampling of live recordings. For some, this might be a bit artistically unsettling.

@@ -2,7 +2,7 @@
 layout: post
 title: Return to Orchestra
 date: 2019-05-30
-categories: story reflections
+categories: story reflections existential
 ---
 
 I've always been one to get sentimental about the past.

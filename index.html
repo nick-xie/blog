@@ -3,26 +3,33 @@ layout: default
 title: Home
 ---
 
-<h1><b>Recent Posts</b></h1><hr><br>
+<h1 class="maxwidth"><b>Recent Posts</b></h1><hr>
 
-<div class="posts">
+<div class="posts maxwidth">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <a href="{{ site.baseurl }}{{ post.url }}" style="color: inherit;">
+    <div class="post">
+      {% if post.thumbnail %}
+      <img class="thumbnail" src="{{ site.baseurl }}{{ post.thumbnail }}">
+      {% endif %}
+      <h1 class="post-title">
+          {{ post.title }}
+      </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.excerpt }}
-    <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
-  </div>
+      {% if post.description %}
+        <p style="font-style: italic;">{{ post.description }}</p>
+      {% else %}
+        {{ post.excerpt }}
+      {% endif %}
+    </div>
+  </a>
+  <hr/>
   {% endfor %}
 </div>
 
-<div class="pagination">
+<div class="pagination maxwidth" style="margin-left: auto; margin-right: auto;">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
   {% else %}

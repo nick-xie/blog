@@ -2,14 +2,59 @@
 layout: default
 ---
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <!-- Title and image row header design -->
+  {% if page.image %}
+  <div class="header-image" style="margin-top: 1rem">
+    <div class="header-image-title">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <h4 class="post-description">{{ page.description }}</h4>
+      {% endif %}
+      {% unless page.hideDate %}
+      <span class="post-date">{{ page.date | date_to_string }}</span>
+      {% endunless %}
+    </div>
+    <figure class="image">
+      <img style="margin: auto; margin-bottom: 1rem; height: {{ include.height }}" src="{{ page.image }}">
+    </figure>
+  </div>
+  <!-- Full banner design -->
+  {% elsif page.banner %}
+  <div class="banner-image">
+    <figure class="image">
+      <img style="margin: auto; margin-bottom: 1rem; height: {{ include.height }}" src="{{ page.banner }}">
+    </figure>
+    <div class="banner-image-title">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.description %}
+      <h4 class="post-description">{{ page.description }}</h4>
+      {% endif %}
+      {% unless page.hideDate %}
+      <span class="post-date">{{ page.date | date_to_string }}</span>
+      {% endunless %}
+    </div>
+  </div>
+  <!-- Default no image design -->
+  {% else %}
+  <div class="maxwidth" style="margin-top: 1rem;">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <h4 class="post-description">{{ page.description }}</h4>
+    {% endif %}
+    {% unless page.hideDate %}
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+    {% endunless %}
+  </div>
+  {% endif %}
+  <hr style="margin: 0.75rem" />
+  <div class="maxwidth">
   {{ content }}
+  </div>
 </div>
-<div class="related">
-  <p class="bio"><a href="https://nick-xie.github.io/#">Nick Xie</a> is a student based around Ontario, Canada who writes to make sense of the internal deliberations that arise as he navigates life.</p>
+<div class="related maxwidth">
+  <p class="bio"><a href="https://nick-xie.github.io/#">Nick Xie</a> is a 20-something based around Ontario, Canada who writes to make sense of the internal deliberations that arise as he navigates life.</p>
   <br>
-  <h2>Tagged Categories</h2>
+  <!-- <h2>Tagged Categories</h2>
   <ul>
     {% for category in page.categories %}
       <li>
@@ -20,7 +65,7 @@ layout: default
         </h3>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 
   <!-- <h2>Recent Posts</h2>
   <ul class="related-posts">

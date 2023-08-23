@@ -25,7 +25,7 @@
       {% endif %}
     {% endfor %}
 
-    <div class="sidebar-item">
+   <!--  <div class="sidebar-item">
       <p>
         Categories
       </p>
@@ -36,7 +36,7 @@
       {% if node.layout == "category" %}
         <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
       {% endif %}
-    {% endfor %}
+    {% endfor %} -->
 
     <div class="sidebar-item">
       <p>
@@ -44,7 +44,7 @@
       </p>
     </div>
 
-    {% assign pages_list = site.posts | sort:"date" | reverse %}
+    {% assign pages_list = site.posts | sort:"date" | reverse | where: "unlisted", "false" %}
     {% for node in pages_list limit:4 %}
       <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
     {% endfor %}

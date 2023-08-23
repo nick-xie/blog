@@ -2,7 +2,7 @@
 layout: post
 title: In the midst of Pandemic
 date: 2020-03-28
-categories: story reflections
+categories: story
 ---
 
 {% include bigletter.html letter="F" %}or one of my classes this term, I was tasked to create some audio work that touched on ideas of soundscapes, space, voice, story, or other aspects of sound. Aside from those general guidelines, there were no other restrictions.

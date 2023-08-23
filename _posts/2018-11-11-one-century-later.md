@@ -2,7 +2,7 @@
 layout: post
 title: One Century Later
 date: 2018-11-11
-categories: story
+categories: story reflections
 ---
 
 Today marks the 100th year anniversary of Armistice Day and the end of the Great War. And with it, comes a lot of reflections and thoughts.

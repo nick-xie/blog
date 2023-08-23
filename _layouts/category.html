@@ -2,20 +2,22 @@
 layout: page
 ---
 
-<hr>
-<h1>Entries tagged with '{{ page.category }}'</h1>
+<div class="maxwidth">
+  <hr>
+  <h1>Entries tagged with '{{ page.category }}'</h1>
 
-{{ content }}
-<hr>
+  {{ content }}
+  <hr>
 
-<ul class="related-posts">
-  {% for post in site.categories[page.category] %}
-    <li>
-      <h3>
-        <a href="{{ post.url | absolute_url }}">
-          {{ post.title }} - <small>{{ post.date | date_to_string }}</small>
-        </a><br>
-      </h3>
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="related-posts">
+    {% for post in site.categories[page.category] %}
+      <li>
+        <h3>
+          <a href="{{ post.url | absolute_url }}">
+            {{ post.title }} - <small>{{ post.date | date_to_string }}</small>
+          </a><br>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

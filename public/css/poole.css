@@ -284,9 +284,8 @@ tbody tr:nth-child(odd) th {
  *
  * Center the page content.
  */
-
-.container {
-  max-width: 38rem;
+.maxwidth {
+  max-width: 42rem;
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
@@ -303,7 +302,6 @@ tbody tr:nth-child(odd) th {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
 }
 .masthead-title {
   margin-top: 0;
@@ -330,7 +328,53 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
+}
+.header-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left:  1rem;
+  padding-right: 1rem;
+}
+.header-image .image {
+  max-width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.header-image-title {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media (max-width: 42em) {
+  .header-image {
+    flex-direction: column;
+  }
+  .header-image .image {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+.banner-image {
+  align-items: center;
+}
+.banner-image .image {
+  max-width: 100%;
+  margin: 0;
+}
+.banner-image .image img {
+  border-radius: 0;
+}
+.banner-image-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 /* Blog post or page title */
@@ -344,12 +388,26 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 
+.thumbnail {
+  min-width: 100%;
+  max-height: 8rem;
+  object-fit: cover;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
   margin-top: -.5rem;
-  margin-bottom: 1rem;
   color: #9a9a9a;
+  font-size: 85%;
+}
+
+/* Meta data line below post title */
+.post-description {
+  font-style: italic;
+  margin-top: -0.25rem;
+  margin-bottom: 1rem;
+  color: #6b6b6b;
 }
 
 /* Related posts */

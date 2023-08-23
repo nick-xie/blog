@@ -10,7 +10,7 @@ tagline:             'nickxie.github.io'
 description:         'My blog'
 url:                 ''
 baseurl:             '/blog'
-paginate:            5
+paginate:            4
 future: true
 
 # About/contact
@@ -21,3 +21,11 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      unlisted: "false"
