@@ -9,27 +9,27 @@ thumbnail: /assets/university/goose.jpg
 # Preface:
 {% include bigletter.html letter="H" %}aving recently graduated from university, I’ve undoubtedly been reflecting on my experience as a whole. I’ve always subscribed to the idea that real life is much more than a series of connected events but that between the mundanity and routine of the everyday, interesting stories happen. So far in my life, nothing has quite captured this life philosophy as well as my past five years as an undergraduate student.
 
-I don’t think I’m deluded enough to think that my individual experience was all that extraordinary to captivate someone to read this pseudo journal. The primary audience for this is honestly myself. The ability to sincerely capture this period in my life with the profundity I found in it is temporal, it will fade with my memories and as such, I feel this sort of urgency to bottle it up before it’s gone. That being said, I do think that the follow up to this, [Crossroads](https://nick-xie.github.io/blog/2022/06/12/crossroads.html), may relate to a wider audience and so, this post exists publicly partly to provide the background context for it.
+I don’t think I’m deluded enough to think that my individual experience was all that extraordinary to captivate someone to read this pseudo journal. The primary audience for this is honestly myself. The ability to sincerely capture this period in my life with the profundity I found in it is temporal, it will fade with my memories and as such, I feel this sort of urgency to bottle it up before it’s gone. That being said, I do think that the follow up to this, [Crossroads](https://blog.nickxie.ca/2022/06/12/crossroads.html), may relate to a wider audience and so, this post exists publicly partly to provide the background context for it.
 
 To give some overhead info, I went to the University of Waterloo and majored in Computer Science and minored in Music. Waterloo is a medium-sized city of about 115k population and with two universities and a college down the road from each other, it is distinctly a student town. Waterloo seamlessly transitions into the larger city of Kitchener (~250k population) and together, they form the “KW” region.
 
 A huge reason why I chose to go to UW (University of Waterloo) is because of its infamous co-op program. The co-op program consists of six work terms (“term” = four months) interspersed with my eight academic semesters. The school terms are named by halves of each year, (i.e. 3B = second half of third academic year or 6th overall academic semester). The co-op and school terms can alternate in a variety of sequences but the exact sequence I did was as follows:
 
 # Chapters
-* [1A (Fall 2016, Sept-Dec)](https://nick-xie.github.io/blog/2022/06/11/1a.html)
-* [1B (Winter 2017, Jan-Apr)](https://nick-xie.github.io/blog/2022/06/11/1b.html)
-* [COOP 1 (Summer 2017, May-Aug)](https://nick-xie.github.io/blog/2022/06/11/coop1.html)
-* [2A (Fall 2017)](https://nick-xie.github.io/blog/2022/06/11/2a.html)
-* [2B (Winter 2018)](https://nick-xie.github.io/blog/2022/06/11/2b.html)
-* [COOP 2 (Summer 2018)](https://nick-xie.github.io/blog/2022/06/11/coop2.html)
-* [3A (Fall 2018)](https://nick-xie.github.io/blog/2022/06/11/3a.html)
-* [COOP 3 (Winter 2019)](https://nick-xie.github.io/blog/2022/06/11/coop3.html)
-* [3B (Summer 2019)](https://nick-xie.github.io/blog/2022/06/11/3b.html)
-* [COOP 4 (Fall 2019)](https://nick-xie.github.io/blog/2022/06/11/coop4.html)
-* [4A (Winter 2020)](https://nick-xie.github.io/blog/2022/06/11/4a.html)
-* [COOP 5 (Summer 2020)](https://nick-xie.github.io/blog/2022/06/11/coop5.html)
-* [COOP 6 (Fall 2020)](https://nick-xie.github.io/blog/2022/06/11/coop6.html)
-* [4B (Winter 2021)](https://nick-xie.github.io/blog/2022/06/11/4b.html)
+* [1A (Fall 2016, Sept-Dec)](https://blog.nickxie.ca/2022/06/11/1a.html)
+* [1B (Winter 2017, Jan-Apr)](https://blog.nickxie.ca/2022/06/11/1b.html)
+* [COOP 1 (Summer 2017, May-Aug)](https://blog.nickxie.ca/2022/06/11/coop1.html)
+* [2A (Fall 2017)](https://blog.nickxie.ca/2022/06/11/2a.html)
+* [2B (Winter 2018)](https://blog.nickxie.ca/2022/06/11/2b.html)
+* [COOP 2 (Summer 2018)](https://blog.nickxie.ca/2022/06/11/coop2.html)
+* [3A (Fall 2018)](https://blog.nickxie.ca/2022/06/11/3a.html)
+* [COOP 3 (Winter 2019)](https://blog.nickxie.ca/2022/06/11/coop3.html)
+* [3B (Summer 2019)](https://blog.nickxie.ca/2022/06/11/3b.html)
+* [COOP 4 (Fall 2019)](https://blog.nickxie.ca/2022/06/11/coop4.html)
+* [4A (Winter 2020)](https://blog.nickxie.ca/2022/06/11/4a.html)
+* [COOP 5 (Summer 2020)](https://blog.nickxie.ca/2022/06/11/coop5.html)
+* [COOP 6 (Fall 2020)](https://blog.nickxie.ca/2022/06/11/coop6.html)
+* [4B (Winter 2021)](https://blog.nickxie.ca/2022/06/11/4b.html)
 
 ---
 

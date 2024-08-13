@@ -161,4 +161,4 @@ Warning, it doesn't sound nice
 
 ---
 
-[For a full written recap of the project, click here](https://nick-xie.github.io/blog/2020/04/02/Living-Synthesis.html)
+[For a full written recap of the project, click here](https://blog.nickxie.ca/2020/04/02/Living-Synthesis.html)

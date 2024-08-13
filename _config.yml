@@ -5,11 +5,11 @@ permalink:           /:year/:month/:day/:title.html
 plugins: [jekyll-paginate]
 
 # Setup
-title:               Nick Xie
-tagline:             'nickxie.github.io'
+title:               blog.
+tagline:             'nickxie.ca'
 description:         'My blog'
-url:                 ''
-baseurl:             '/blog'
+url:                 'https://blog.nickxie.ca'
+baseurl:             ''
 paginate:            4
 future: true
 
